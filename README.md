@@ -42,7 +42,7 @@ This program was created as a coding challenge for a job application.  The progr
 
 1. Follow the instructions below to set-up the code to execute.  All commands are run from the command line.
 
-   ```ruby
+   ```
    # Download the code
    In the command line, navigate to the folder you wish to use for this project.
    Run the command "git clone https://github.com/ftweedy/Code-Challenge-7-16-2019.git".
