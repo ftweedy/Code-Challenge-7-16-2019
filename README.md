@@ -27,9 +27,7 @@ Things you may want to cover:
 # Code Challenge
 
 This program was created as a coding challenge for a job application.  The program take in various requests to query the two text files that act the back-end database.  Javascript was used for the front and RubyOnRails was used for the back.
-
-Use **[`rspec-rails` 1.x][]** for Rails 2.x.
-
+<!-- 
 [Build Status]: https://secure.travis-ci.org/rspec/rspec-rails.svg?branch=master
 [travis-ci]: https://travis-ci.org/rspec/rspec-rails
 [Code Climate]: https://codeclimate.com/github/rspec/rspec-rails.svg
@@ -38,15 +36,15 @@ Use **[`rspec-rails` 1.x][]** for Rails 2.x.
 [gem-version]: https://badge.fury.io/rb/rspec-rails
 [RSpec]: https://rspec.info/
 [Ruby on Rails]: https://rubyonrails.org/
-[`rspec-rails` 1.x]: https://github.com/dchelimsky/rspec-rails
+[`rspec-rails` 1.x]: https://github.com/dchelimsky/rspec-rails -->
 
-## Installation
+## Installation and Set-up
 
-1. Add `rspec-rails` to **both** the `:development` and `:test` groups
-   of your app’s `Gemfile`:
+1. Follow the instructions below to set-up the code to execute.
 
    ```ruby
-   # Run against the latest stable release
+   # Download the code
+   Run "git clone https://github.com/ftweedy/Code-Challenge-7-16-2019.git" from the command line in the repository of your choosing to clone the project into your folder.
    group :development, :test do
      gem 'rspec-rails', '~> 3.8'
    end
