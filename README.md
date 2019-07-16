@@ -40,26 +40,24 @@ This program was created as a coding challenge for a job application.  The progr
 
 ## Installation and Set-up
 
-1. Follow the instructions below to set-up the code to execute.
+1. Follow the instructions below to set-up the code to execute.  All commands are run from the command line.
 
    ```ruby
    # Download the code
-   Run "git clone https://github.com/ftweedy/Code-Challenge-7-16-2019.git" from the command line in the repository of your choosing to clone the project into your folder.
-   group :development, :test do
-     gem 'rspec-rails', '~> 3.8'
-   end
+   In the command line, navigate to the folder you wish to use for this project.
+   Run the command "git clone https://github.com/ftweedy/Code-Challenge-7-16-2019.git".
+    This will clone the project into your folder.
 
-   # Or, run against the master branch
-   # (requires master-branch versions of all related RSpec libraries)
-   group :development, :test do
-     %w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
-       gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
-     end
-   end
+   # Update Yarn
+   This code uses yarn and the yarn packages will need to be updated.
+   Run the command "yarn install" to setup yarn.
+
+   # Run server and navigate to website.
+   Run the command "rails s".  This will start a local rails server on your machine.
+   After the server is running, navigate to "http://localhost:3000/".  The website will be running and visible.
+
+
    ```
-
-   (Adding it to the `:development` group is not strictly necessary,
-   but without it, generators and rake tasks must be preceded by `RAILS_ENV=test`.)
 
 2. Then, in your project directory:
 
