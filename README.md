@@ -1,15 +1,4 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* How to run the test suite
-
-
 # Code Challenge
 
 This program was created as a coding challenge for a job application.  The program take in various requests to query the two text files that act the back-end database.  Javascript was used for the front and RubyOnRails was used for the back.
